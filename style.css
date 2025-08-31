@@ -352,3 +352,66 @@
   line-height: 0.3;
   margin-top: 25px;
 }
+
+
+/* 📱 Mobile Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .header-nav {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .hero-text {
+    font-size: 30px;
+    padding-left: 0;
+  }
+  .hero-text2 {
+    margin-left: 0;
+  }
+  .hero-img {
+    width: 90%;
+    height: auto;
+    padding: 0;
+  }
+  .new-arrival-products {
+    flex-direction: column;
+    align-items: center;
+  }
+  .arrival-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+  .product-items {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .product-card {
+    width: 90%;
+  }
+  .subscribe-input {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .subscribe-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
